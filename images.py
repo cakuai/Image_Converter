@@ -19,3 +19,4 @@ img.thumbnail((400, 400))
 # 製作縮圖 為了不要讓圖片ratio跑掉 不用resize而改用這個 但thumbnail無回傳值 是「動作」 所以不能assign給變數
 # tuple裡的是圖片max value
 img.save("thumbnail.png")
+
